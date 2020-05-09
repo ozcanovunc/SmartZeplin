@@ -1,11 +1,11 @@
 {
     "info": {
-        "name": "Smartface Empty Workspace",
-        "company": "Smartface User",
-        "webSite": "https://www.smartface.io",
+        "name": "SmartZeplin",
+        "company": "Ozcan Ovunc",
+        "webSite": "https://ozcanovunc.github.io",
         "version": "1.0.0",
         "runtimeVersion": "1100",
-        "description": "This is Smartface's default empty project. You can click to Run on Device button to see it on your device."
+        "description": "SmartZeplin is a native iOS/Android app that lets you view Zeplin projects"
     },
     "config": {
         "cache": {
@@ -16,9 +16,9 @@
         },
         "orientation": {
             "portrait": true,
-            "upsideDown": true,
-            "landScapeLeft": true,
-            "landScapeRight": true
+            "upsideDown": false,
+            "landScapeLeft": false,
+            "landScapeRight": false
         }
     },
     "api": {
@@ -78,10 +78,8 @@
                     "keyPass": "smartface"
                 },
                 "plugins": {
-                    "aars": {
-                    },
-                    "modules": {
-                    }
+                    "aars": {},
+                    "modules": {}
                 },
                 "playerPath": null
             },
@@ -93,12 +91,12 @@
         "output": {
             "ios": {
                 "outputFolder": "output/iOS",
-                "bundleIdentifier": "io.smartface.demo",
+                "bundleIdentifier": "io.ozcanovunc.smartzeplin",
                 "targetedDeviceFamily": "universal"
             },
             "android": {
                 "outputFolder": "output/Android",
-                "packageName": "io.smartface.demo",
+                "packageName": "io.ozcanovunc.smartzeplin",
                 "obfuscationEnabled": false
             }
         },

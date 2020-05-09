@@ -15,7 +15,7 @@ Application.onUnhandledError = function (e: UnhandledError) {
 import "./theme";
 require("sf-extension-utils");
 const router = require("./routes");
-router.push("/pages/page1");
+router.push("/pages/pgLogin");
 
 
 Application.onApplicationCallReceived = function(e){
@@ -24,3 +24,6 @@ Application.onApplicationCallReceived = function(e){
         message: JSON.stringify(e, null, 4)
     });
 };
+
+
+//            Application.call("https://api.zeplin.dev/v1/oauth/authorize?response_type=code&client_id=5eb5cf58699fff4c421027c9&redirect_uri=smartzeplin%3A%2F%2F&state=foobar")

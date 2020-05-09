@@ -1,0 +1,132 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "6a5a-4476-c073-923d",
+			"initialized": true,
+			"props": {
+				"children": [
+					"36ef-f72f-59f2-5ef3",
+					"9a1d-5066-5e8e-5fa8",
+					"380b-40b2-504e-d294",
+					"7775-469b-7632-c542"
+				],
+				"name": "pgLogin",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "36ef-f72f-59f2-5ef3",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "6a5a-4476-c073-923d"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "9a1d-5066-5e8e-5fa8",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "6a5a-4476-c073-923d",
+				"title": "pgLogin"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgLogin",
+				"visible": false
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgLogin-topLayout",
+			"id": "380b-40b2-504e-d294",
+			"props": {
+				"children": [
+					"4efd-f048-c3c5-b404"
+				],
+				"name": "flTop",
+				"parent": "6a5a-4476-c073-923d"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgLogin-zeplin",
+			"id": "4efd-f048-c3c5-b404",
+			"props": {
+				"children": [],
+				"name": "imgZeplin",
+				"parent": "380b-40b2-504e-d294"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgLogin-bottomLayout",
+			"id": "7775-469b-7632-c542",
+			"props": {
+				"children": [
+					"a5ea-a9ff-7d8e-9638",
+					"fe33-d389-28d5-5d0a",
+					"22ab-1db6-ea22-65ea"
+				],
+				"name": "flBottom",
+				"parent": "6a5a-4476-c073-923d"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-button.orange",
+			"id": "a5ea-a9ff-7d8e-9638",
+			"props": {
+				"children": [],
+				"name": "btnLogin",
+				"parent": "7775-469b-7632-c542",
+				"usePageVariable": true
+			},
+			"type": "Button",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView #pgLogin-bottomLayout-zeplinImage",
+			"id": "fe33-d389-28d5-5d0a",
+			"props": {
+				"children": [],
+				"name": "imageView1",
+				"parent": "7775-469b-7632-c542"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flSmartface",
+			"hiddenComponent": false,
+			"id": "22ab-1db6-ea22-65ea",
+			"initialized": true,
+			"props": {
+				"children": [],
+				"name": "flSmartface",
+				"parent": "7775-469b-7632-c542"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flSmartface",
+				"id": "5390-3e0c-0882-86eb"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		}
+	]
+}

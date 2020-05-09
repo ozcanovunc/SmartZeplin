@@ -1,0 +1,36 @@
+{
+	"#pgLogin": {
+		"&-bottomLayout": {
+			"height": 300,
+			"bottom": -10,
+			"borderRadius": 10,
+			"flexProps": {
+				"flexGrow": 1,
+				"justifyContent": "SPACE_AROUND"
+			},
+			"backgroundColor": "${grayDark}",
+			"paddingRight": 20,
+			"paddingLeft": 20,
+			"paddingTop": 20,
+			"paddingBottom": 40,
+			"&-zeplinImage": {
+				"height": 40,
+				"image": "designtools.png",
+				"imageFillType": "ASPECTFIT"
+			}
+		},
+		"&-topLayout": {
+			"flexProps": {
+				"flexGrow": 2,
+				"alignItems": "CENTER",
+				"justifyContent": "CENTER"
+			}
+		},
+		"&-zeplin": {
+			"width": 100,
+			"height": 100,
+			"image": "zeplin.png",
+			"imageFillType": "ASPECTFIT"
+		}
+	}
+}

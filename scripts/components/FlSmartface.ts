@@ -1,6 +1,6 @@
-import PageTitleLayoutDesign from 'generated/my-components/PageTitleLayout';
+import FlSmartfaceDesign from 'generated/my-components/FlSmartface';
 
-export default class PageTitleLayout extends PageTitleLayoutDesign {
+export default class FlSmartface extends FlSmartfaceDesign {
 	pageName?: string | undefined;
 	constructor(props?: any, pageName?: string) {
 		// Initalizes super class for this scope

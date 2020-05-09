@@ -1,0 +1,41 @@
+{
+    ".sf": {
+        "&-page": {
+            "paddingBottom": null,
+            "paddingLeft": null,
+            "paddingRight": null,
+            "paddingTop": null,
+            "backgroundColor": "${black}"
+        },
+        "&-button": {
+            "marginBottom": null,
+            "marginTop": null,
+            "backgroundColor": {
+                "normal": "${blue}",
+                "disabled": "${bluedark}",
+                "pressed": "${bluedark}"
+            },
+            "borderRadius": 10,
+            ".orange": {
+                "backgroundColor": {
+                    "normal": "${orange}",
+                    "disabled": "${orangedark}",
+                    "pressed": "${orangedark}"
+                }
+            }
+        },
+        "&-imageView": {
+            "marginBottom": null,
+            "marginTop": null
+        },
+        "&-label": {
+            "marginTop": null,
+            "marginBottom": null,
+            "textColor": "${white}"
+        },
+        "&-flexLayout": {
+            "marginBottom": null,
+            "marginTop": null
+        }
+    }
+}

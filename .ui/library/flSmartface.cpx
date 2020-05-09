@@ -1,0 +1,57 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flSmartface",
+			"id": "5390-3e0c-0882-86eb",
+			"initialized": true,
+			"props": {
+				"children": [
+					"6201-d103-d76a-98b2",
+					"da83-9d99-aa60-5ad2"
+				],
+				"name": "flSmartface",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {},
+				"left": 13,
+				"top": 204
+			}
+		},
+		{
+			"className": ".sf-label .flSmartface-label",
+			"id": "6201-d103-d76a-98b2",
+			"props": {
+				"children": [],
+				"name": "lblPower",
+				"parent": "5390-3e0c-0882-86eb",
+				"text": "Powered by"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Powered by"
+			}
+		},
+		{
+			"className": ".sf-imageView .flSmartface-image",
+			"id": "da83-9d99-aa60-5ad2",
+			"props": {
+				"children": [],
+				"name": "imgSmartface",
+				"parent": "5390-3e0c-0882-86eb"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		}
+	]
+}

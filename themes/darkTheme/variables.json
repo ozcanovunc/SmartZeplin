@@ -1,0 +1,12 @@
+{
+    "yellow": "rgba(248, 208, 86, 1)",
+    "orangelight": "rgba(244, 191, 85, 1)",
+    "orange": "rgba(234, 156, 74, 1)",
+    "orangedark": "rgba(223, 111, 56, 1)",
+    "blue": "rgba(86, 155, 242, 1)",
+    "bluedark": "rgba(85, 143, 219, 1)",
+    "gray": "rgba(193, 190, 193, 1)",
+    "grayDark": "rgba(84, 78, 86, 1)",
+    "black": "#000000",
+    "white": "#FFFFFF"
+}

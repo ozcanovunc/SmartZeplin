@@ -1,0 +1,7 @@
+{
+	"Paths": {
+		"defaults": "/styles/defaults",
+		"pages": "/styles/pages",
+		"components": "/styles/components"
+	}
+}
