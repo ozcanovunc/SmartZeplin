@@ -1,4 +1,6 @@
 {
-    "key1": "value1",
-    "key2": "value2"
+    "baseUrl": "https://api.zeplin.dev/v1",
+    "clientId": "5eb5cf58699fff4c421027c9",
+    "clientSecret": "d45ccbb3c9e1efe718fc9bb5a4f49a5849fc8f102c99745621e9a178c7c98d0a",
+    "redirectUri": "smartzeplin://"
 }

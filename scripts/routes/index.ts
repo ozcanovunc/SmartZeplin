@@ -11,11 +11,20 @@ const router = Router.of({
     isRoot: true,
     routes: [
         StackRouter.of({
+            path: "/onboarding",
+            routes: [
+                Route.of({
+                    path: "/onboarding/login",
+                    build: buildExtender({ getPageClass: () => require("pages/pgLogin").default, headerBarStyle: { visible: false } })
+                })
+            ]
+        }),
+        StackRouter.of({
             path: "/pages",
             routes: [
                 Route.of({
-                    path: "/pages/pgLogin",
-                    build: buildExtender({ getPageClass: () => require("pages/pgLogin").default, headerBarStyle: { visible: false } })
+                    path: "/pages/dashboard",
+                    build: buildExtender({ getPageClass: () => require("pages/pgDashboard").default, headerBarStyle: { visible: true } })
                 })
             ]
         })

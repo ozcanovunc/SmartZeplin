@@ -31,6 +31,18 @@
 			"height": 100,
 			"image": "zeplin.png",
 			"imageFillType": "ASPECTFIT"
+		},
+		"&-title": {
+			"width": 200,
+			"textAlignment": "MIDCENTER",
+			"marginTop": 20,
+			"font": {
+				"size": 25,
+				"italic": false,
+				"family": "SFProText",
+				"style": "Semibold",
+				"bold": true
+			}
 		}
 	}
 }

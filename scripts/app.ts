@@ -1,10 +1,9 @@
 /* globals lang */
-require("i18n/i18n.js"); // Generates global lang object
+require("i18n/i18n.js");
 import Application = require("sf-core/application");
 import { errorStackBySourceMap } from "error-by-sourcemap";
 import System = require("sf-core/device/system");
-// Set uncaught exception handler, all exceptions that are not caught will
-// trigger onUnhandledError callback.
+
 Application.onUnhandledError = function (e: UnhandledError) {
     const error = errorStackBySourceMap(e);
     alert({
@@ -12,18 +11,25 @@ Application.onUnhandledError = function (e: UnhandledError) {
         message: System.OS === "Android" ? error.stack : (e.message + "\n\n*" + error.stack)
     });
 };
+
 import "./theme";
+import { getAccessToken } from "service/login";
+import * as config from "config.json";
 require("sf-extension-utils");
+const URI = require('urijs');
 const router = require("./routes");
-router.push("/pages/pgLogin");
+router.push("/onboarding/login");
 
-
-Application.onApplicationCallReceived = function(e){
-    alert({
-        title: "Application Call Received",
-        message: JSON.stringify(e, null, 4)
-    });
+Application.onApplicationCallReceived = (e) => {
+    if (e && e.data && e.data.url && e.data.url.startsWith(config.redirectUri)) {
+        let res = URI(e.data.url).query(true);
+        getAccessToken(res.code)
+            .then((e) => {
+                alert(JSON.stringify(e, null, 4))
+                router.push("/pages/dashboard");
+            })
+            .catch((e) => {
+                alert(JSON.stringify(e, null, 4))
+            })
+    }
 };
-
-
-//            Application.call("https://api.zeplin.dev/v1/oauth/authorize?response_type=code&client_id=5eb5cf58699fff4c421027c9&redirect_uri=smartzeplin%3A%2F%2F&state=foobar")
