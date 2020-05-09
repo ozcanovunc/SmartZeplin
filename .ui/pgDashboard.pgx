@@ -1,96 +1,79 @@
 {
 	"components": [
 		{
-			"type": "Page",
-			"id": "3b13-18e3-db18-3753",
-			"userProps": {},
 			"className": ".sf-page",
+			"id": "3b13-18e3-db18-3753",
+			"initialized": true,
 			"props": {
-				"name": "pgDashboard",
-				"parent": null,
 				"children": [
 					"002d-7a42-851c-ac3d",
-					"49a0-8d14-9edc-50b9"
+					"49a0-8d14-9edc-50b9",
+					"27f8-d4e0-6fb5-d5bd"
 				],
-				"orientation": "PORTRAIT"
-			},
-			"initialized": false
-		},
-		{
-			"type": "StatusBar",
-			"id": "002d-7a42-851c-ac3d",
-			"userProps": {},
-			"className": ".sf-statusBar",
-			"props": {
-				"name": "statusBar",
-				"parent": "3b13-18e3-db18-3753",
-				"children": [],
-				"visible": true,
-				"isRemovable": false
-			}
-		},
-		{
-			"type": "HeaderBar",
-			"id": "49a0-8d14-9edc-50b9",
-			"userProps": {
-				"title": "pgDashboard"
-			},
-			"className": ".sf-headerBar",
-			"props": {
-				"name": "headerBar",
-				"parent": "3b13-18e3-db18-3753",
-				"children": [],
-				"title": "pgDashboard",
-				"visible": true,
-				"isRemovable": false
-			}
-		}
-	],
-	"componentByID": {
-		"5cf6-4c81-96de-e65d": {
-			"type": "Page",
-			"id": "3b13-18e3-db18-3753",
-			"userProps": {},
-			"className": ".sf-page",
-			"props": {
 				"name": "pgDashboard",
-				"parent": null,
-				"children": [
-					"002d-7a42-851c-ac3d",
-					"49a0-8d14-9edc-50b9"
-				],
-				"orientation": "PORTRAIT"
+				"orientation": "PORTRAIT",
+				"parent": null
 			},
-			"initialized": false
+			"type": "Page",
+			"userProps": {}
 		},
-		"cc08-2a58-6e4d-9269": {
-			"type": "StatusBar",
-			"id": "002d-7a42-851c-ac3d",
-			"userProps": {},
+		{
 			"className": ".sf-statusBar",
+			"id": "002d-7a42-851c-ac3d",
 			"props": {
-				"name": "statusBar",
-				"parent": "3b13-18e3-db18-3753",
 				"children": [],
-				"visible": true,
-				"isRemovable": false
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "3b13-18e3-db18-3753"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "49a0-8d14-9edc-50b9",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "3b13-18e3-db18-3753"
+			},
+			"type": "HeaderBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-gridView .grow-relative #pgDashboard-grid",
+			"id": "27f8-d4e0-6fb5-d5bd",
+			"props": {
+				"children": [
+					"3ccc-5528-884e-af5b"
+				],
+				"name": "gvMain",
+				"parent": "3b13-18e3-db18-3753",
+				"usePageVariable": true
+			},
+			"type": "GridView",
+			"userProps": {
+				"usePageVariable": true
 			}
 		},
-		"994c-2e9d-f848-9913": {
-			"type": "HeaderBar",
-			"id": "49a0-8d14-9edc-50b9",
-			"userProps": {
-				"title": "pgDashboard"
-			},
-			"className": ".sf-headerBar",
+		{
+			"className": ".sf-gridViewItem .gviProject",
+			"hiddenComponent": false,
+			"id": "3ccc-5528-884e-af5b",
+			"initialized": true,
 			"props": {
-				"name": "headerBar",
-				"parent": "3b13-18e3-db18-3753",
 				"children": [],
-				"title": "pgDashboard",
-				"visible": true,
-				"isRemovable": false
-			}
+				"name": "gviProject",
+				"parent": "27f8-d4e0-6fb5-d5bd"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "gviProject",
+				"id": "cac3-6b18-2603-b7fe"
+			},
+			"type": "GridViewItem",
+			"userProps": {}
 		}
-	}
+	]
 }

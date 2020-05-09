@@ -1,0 +1,17 @@
+{
+	"#pgDashboard": {
+		"&-grid": {
+			"layoutManager": {
+				"spanCount": 2,
+                "contentInset": {
+                    "top": 5,
+                    "bottom": 5,
+                    "left": 0,
+                    "right": 0
+                }
+			},
+			"paddingLeft": 5,
+			"paddingRight": 5
+		}
+	}
+}

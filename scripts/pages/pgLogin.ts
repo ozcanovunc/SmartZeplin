@@ -23,3 +23,9 @@ function onShow(superOnShow: () => void) {
 function onLoad(superOnLoad: () => void) {
     superOnLoad();
 }
+
+
+// var utcSeconds = 1234567890;
+// var d = new Date(0); // The 0 there is the key, which sets the date to the epoch
+// d.setUTCSeconds(utcSeconds);
+// Math.floor((date2 - date1) / (1000*60*60*24)) // days

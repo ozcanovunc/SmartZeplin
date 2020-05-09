@@ -1,0 +1,49 @@
+{
+	".gviProject": {
+		"backgroundColor": "${black}",
+		"flexProps": {},
+		"&-wrapper": {
+			"paddingLeft": 15,
+			"paddingRight": 15,
+			"flexProps": {
+				"flexGrow": 4,
+				"justifyContent": "CENTER"
+			}
+		},
+		"&-os": {
+			"textColor": "${blue}",
+			"font": {
+				"size": 10,
+				"bold": true,
+				"italic": false,
+				"family": "SFProText",
+				"style": "Semibold"
+			},
+			"height": 20
+		},
+		"&-name": {
+			"height": 40,
+			"font": {
+				"size": 16,
+				"bold": true,
+				"italic": false,
+				"family": "SFProText",
+				"style": "Semibold"
+			}
+		},
+		"&-thumbnail": {
+			"height": null,
+			"flexProps": {
+				"flexGrow": 3
+			}
+		},
+		"&-wholewrapper": {
+			"marginLeft": 5,
+			"marginRight": 5,
+			"backgroundColor": "${lightBlack}",
+			"borderRadius": 10,
+			"marginTop": 5,
+			"marginBottom": 5
+		}
+	}
+}

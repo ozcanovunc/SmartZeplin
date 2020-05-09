@@ -2,6 +2,7 @@
 	"components": [
 		{
 			"className": ".sf-flexLayout .flSmartface",
+			"hiddenComponent": true,
 			"id": "5390-3e0c-0882-86eb",
 			"initialized": true,
 			"props": {
