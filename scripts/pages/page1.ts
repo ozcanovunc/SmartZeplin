@@ -12,27 +12,18 @@ export default class Page1 extends Page1Design {
 		// Overrides super.onLoad method
 		this.onLoad = onLoad.bind(this, this.onLoad.bind(this));
         this.btnNext.onPress = () => {
-            this.router.push("/pages/page2", { message: "Hello World!" });
+            // this.router.push("/pages/page2", { message: "Hello World!" });
+
+            
         }
     }
 }
 
-/**
- * @event onShow
- * This event is called when a page appears on the screen (everytime).
- * @param {function} superOnShow super onShow function
- * @param {Object} parameters passed from Router.go function
- */
 function onShow(superOnShow) {
   superOnShow();
   this.headerBar.titleLayout.applyLayout();
 }
 
-/**
- * @event onLoad
- * This event is called once when page is created.
- * @param {function} superOnLoad super onLoad function
- */
 function onLoad(superOnLoad) {
     superOnLoad();
     console.info('Onload page1');

@@ -16,3 +16,11 @@ import "./theme";
 require("sf-extension-utils");
 const router = require("./routes");
 router.push("/pages/page1");
+
+
+Application.onApplicationCallReceived = function(e){
+    alert({
+        title: "Application Call Received",
+        message: JSON.stringify(e, null, 4)
+    });
+};
