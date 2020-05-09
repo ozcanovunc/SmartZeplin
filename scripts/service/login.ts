@@ -11,7 +11,7 @@ export function getAccessToken(code: string) {
             "client_id": config.clientId,
             "client_secret": config.clientSecret,
             code,
-            "redirect_uri": encodeURIComponent(config.redirectUri)
+            "redirect_uri": config.redirectUri2
         }
     });
 }
