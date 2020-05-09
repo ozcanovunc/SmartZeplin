@@ -1,0 +1,36 @@
+{
+    ".sf-page": {
+        "masksToBounds": true,
+        "flexProps": {
+            "alignContent": "STRETCH",
+            "alignItems": "STRETCH",
+            "direction": "INHERIT",
+            "flexDirection": "COLUMN",
+            "flexWrap": "NOWRAP",
+            "justifyContent": "FLEX_START"
+        },
+        "paddingTop": 16,
+        "paddingLeft": 16,
+        "paddingBottom": 16,
+        "paddingRight": 16,
+        "backgroundColor": "#FFFFFF",
+        "orientation": "PORTRAIT"
+    },
+    ".page": {
+        "masksToBounds": true,
+        "flexProps": {
+            "alignContent": "STRETCH",
+            "alignItems": "STRETCH",
+            "direction": "INHERIT",
+            "flexDirection": "COLUMN",
+            "flexWrap": "NOWRAP",
+            "justifyContent": "FLEX_START"
+        },
+        "backgroundColor": "#FFFFFF",
+        "orientation": "PORTRAIT"
+    },
+    ".default_page": {
+        "masksToBounds": true,
+        "orientation": "PORTRAIT"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "config": {
+        "rau": {
+            "formatVersion": "1.0.0",
+            "hashType": "md5",
+            "profileKey": "myAppKey-Secret",
+            "revision": 1,
+            "channels": ["production", "test"],
+            "meta": {
+                "whatIsWritten in data": "as data object in here",
+                "also": "it can be null or missing",
+                "this": "is not parsed by release server"
+            },
+            "minimumSupportedVersion": "1.0.0",
+            "currentReleaseChannel": "test"
+        }
+    }
+}

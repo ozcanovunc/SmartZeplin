@@ -1,0 +1,54 @@
+{
+	".sf-flexLayout": {
+        "masksToBounds": true,
+		"height": 343,
+		"width": null,
+        "marginTop": 1,
+        "marginBottom": 1,
+        
+		"flexProps": {
+			"alignSelf": "AUTO",
+			"direction": "INHERIT",
+			"alignContent": "STRETCH",
+			"alignItems": "STRETCH",
+			"justifyContent": "FLEX_START",
+			"flexWrap": "NOWRAP",
+			"flexDirection": "COLUMN",
+			"positionType": "RELATIVE"
+		},
+		"&-small": {
+			"width": 100
+		},
+		"&-medium": {
+			"width": 250
+		},
+		"&-large": {
+			"width": 350
+		}
+	},
+	".flexLayout": {
+        "masksToBounds": true,
+		"height": 343,
+		"width": null,
+		"flexProps": {
+			"alignSelf": "AUTO",
+			"direction": "INHERIT",
+			"alignContent": "STRETCH",
+			"alignItems": "STRETCH",
+			"justifyContent": "FLEX_START",
+			"flexWrap": "NOWRAP",
+			"flexDirection": "COLUMN",
+            "masksToBounds": true,
+			"positionType": "RELATIVE"
+		},
+		"&-small": {
+			"width": 100
+		},
+		"&-medium": {
+			"width": 250
+		},
+		"&-large": {
+			"width": 350
+		}
+	}
+}

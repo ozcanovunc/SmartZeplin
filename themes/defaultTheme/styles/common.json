@@ -1,0 +1,12 @@
+{
+    ".default_common":{
+        "alpha": 1,
+        "visible": true,
+        "marginBottom": null,
+        "marginTop": null,
+        "flexProps": {
+            "positionType": "RELATIVE",
+            "alignSelf": "AUTO"
+        }
+    }
+}

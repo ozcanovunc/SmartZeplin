@@ -1,0 +1,49 @@
+{
+    ".sf-textView": {
+        "masksToBounds": true,
+        "width": null,
+        "height": 131,
+        "maxLines": 1,
+        "ellipsizeMode": "END",
+        "textAlignment": "MIDLEFT",
+        "marginTop": 1,
+        "marginBottom": 1,
+        "flexProps": {
+            "alignSelf": "AUTO",
+            "positionType": "RELATIVE"
+        },
+        "&-small": {
+            "width": 100
+        },
+        "&-medium": {
+            "width": 250
+        },
+        "&-large": {
+            "width": 350
+        }
+    },
+    ".textView": {
+        "masksToBounds": true,
+        "width": null,
+        "height": 131,
+        "maxLines": 0,
+        "ellipsizeMode": "NONE",
+        "textAlignment": "MIDLEFT",
+        "flexProps": {
+            "alignSelf": "AUTO",
+            "positionType": "RELATIVE"
+        },
+        "&-small": {
+            "width": 100
+        },
+        "&-medium": {
+            "width": 250
+        },
+        "&-large": {
+            "width": 350
+        }
+    },
+    ".deafult_textView": {
+        "masksToBounds": true
+    }
+}

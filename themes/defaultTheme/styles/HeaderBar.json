@@ -1,0 +1,16 @@
+{
+    ".sf-headerBar": {
+        "masksToBounds": true,
+        "visible": true,
+		"backgroundColor": "rgba( 0, 161, 241, 1 )",
+		"titleColor": "rgba( 255, 255, 255, 1 )",
+		"itemColor": "rgba( 255, 255, 255, 1 )"
+    },
+    ".headerBar": {
+        "masksToBounds": true,
+        "visible": true,
+		"backgroundColor": "rgba( 0, 161, 241, 1 )",
+		"titleColor": "rgba( 255, 255, 255, 1 )",
+		"itemColor": "rgba( 255, 255, 255, 1 )"
+    }
+}

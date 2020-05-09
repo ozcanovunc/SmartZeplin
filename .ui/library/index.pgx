@@ -1,0 +1,47 @@
+{
+	"components": [
+		{
+			"className": "",
+			"id": "57f4-201f-4bfc-5fc6",
+			"initialized": true,
+			"props": {
+				"children": [
+					"23c1-aa21-38ff-148e",
+					"76f4-a7ec-36e9-a444"
+				],
+				"name": "__library__",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "6.15.1"
+		},
+		{
+			"className": "",
+			"id": "23c1-aa21-38ff-148e",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"id": "76f4-a7ec-36e9-a444",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "57f4-201f-4bfc-5fc6",
+				"title": "__library__"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "__library__"
+			}
+		}
+	]
+}

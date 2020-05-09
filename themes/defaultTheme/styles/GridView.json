@@ -1,0 +1,41 @@
+{
+    ".sf-gridView": {
+        "masksToBounds": true,
+		"height": 343,
+		"width": null,
+        "marginTop": 1,
+        "marginBottom": 1,
+        "backgroundColor": "rgba(255,255,255,0)",
+        "flexProps": {
+            "alignSelf": "AUTO",
+            "positionType": "RELATIVE"
+        },
+        "&-small": {
+            "width": 100
+        },
+        "&-medium": {
+            "width": 250
+        },
+        "&-large": {
+            "width": 350
+        }
+    },
+    ".gridView": {
+        "masksToBounds": true,
+		"height": 343,
+		"width": null,
+        "flexProps": {
+            "alignSelf": "AUTO",
+            "positionType": "RELATIVE"
+        },
+        "&-small": {
+            "width": 100
+        },
+        "&-medium": {
+            "width": 250
+        },
+        "&-large": {
+            "width": 350
+        }
+    }
+}

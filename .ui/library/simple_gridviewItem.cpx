@@ -1,0 +1,86 @@
+{
+	"components": [
+		{
+			"className": ".sf-gridViewItem .sf-gridViewItem-simple",
+			"hiddenComponent": false,
+			"id": "aea8-55c1-833e-4baa",
+			"initialized": true,
+			"props": {
+				"children": [
+					"58e6-e69e-a1c1-d4b9",
+					"67de-5d59-e18c-7727",
+					"e92d-12a6-d5ab-b6da"
+				],
+				"name": "simple_gridviewItem",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "GridViewItem",
+			"userProps": {
+				"flexProps": {},
+				"height": 227,
+				"left": 102.77777777777779,
+				"top": 88.88888888888889
+			}
+		},
+		{
+			"className": ".sf-imageView .sf-gridViewItem-simple-preview",
+			"id": "58e6-e69e-a1c1-d4b9",
+			"props": {
+				"autoHeight": 343.4782608695652,
+				"autoWidth": 343.4782608695652,
+				"children": [],
+				"name": "imgPreview",
+				"parent": "aea8-55c1-833e-4baa"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"autoHeight": 343.4782608695652,
+				"autoWidth": 343.4782608695652
+			}
+		},
+		{
+			"className": ".sf-label .sf-gridViewItem-simple-title",
+			"id": "67de-5d59-e18c-7727",
+			"props": {
+				"autoHeight": 20.652173913043477,
+				"children": [],
+				"name": "lblTitle",
+				"parent": "aea8-55c1-833e-4baa",
+				"text": "Grid Title Here"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 20.652173913043477,
+				"text": "Grid Title Here"
+			}
+		},
+		{
+			"className": ".sf-label .sf-gridViewItem-simple-subtitle",
+			"id": "e92d-12a6-d5ab-b6da",
+			"props": {
+				"autoHeight": 18.478260869565215,
+				"children": [],
+				"name": "lblSubtitle",
+				"parent": "aea8-55c1-833e-4baa",
+				"text": "Grid subtitle here"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 18.478260869565215,
+				"text": "Grid subtitle here"
+			}
+		}
+	]
+}

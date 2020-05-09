@@ -1,0 +1,124 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "e891b86d",
+			"initialized": true,
+			"props": {
+				"children": [
+					"42b807d1",
+					"b7d28cff",
+					"980522a9",
+					"9e49-7873-afba-472b"
+				],
+				"isRemovable": true,
+				"name": "page1",
+				"orientation": "PORTRAIT",
+				"parent": null,
+				"safeAreaEnabled": true
+			},
+			"type": "Page",
+			"userProps": {
+				"flexProps": {
+					"justifyContent": "SPACE_BETWEEN",
+					"alignItems": "STRETCH"
+				},
+				"orientation": "PORTRAIT",
+				"paddingBottom": 20,
+				"paddingLeft": 16,
+				"paddingRight": 16,
+				"safeAreaEnabled": true
+			},
+			"version": "6.15.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "42b807d1",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "e891b86d"
+			},
+			"type": "StatusBar",
+			"userProps": {
+				"visible": true
+			}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "b7d28cff",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "e891b86d",
+				"title": "Page1"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Page1",
+				"visible": true
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "980522a9",
+			"props": {
+				"autoHeight": 39.325842696629216,
+				"children": [],
+				"name": "lbl",
+				"parent": "e891b86d",
+				"text": "Page1",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 39.325842696629216,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"flexProps": {
+					"marginLeft": 20,
+					"marginRight": 20,
+					"alignSelf": "STRETCH",
+					"flexGrow": 1
+				},
+				"font": {
+					"size": 32,
+					"bold": false,
+					"italic": false,
+					"family": "SFProText",
+					"style": "Regular"
+				},
+				"height": 600,
+				"multiline": true,
+				"text": "Page1",
+				"textAlignment": "MIDCENTER",
+				"textColor": "rgba( 210, 210, 210, 1 )",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-button",
+			"id": "9e49-7873-afba-472b",
+			"props": {
+				"autoHeight": 50.561797752808985,
+				"children": [],
+				"name": "btnNext",
+				"parent": "e891b86d",
+				"text": "Next Page",
+				"usePageVariable": true
+			},
+			"type": "Button",
+			"userProps": {
+				"autoHeight": 50.561797752808985,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE"
+				},
+				"text": "Next Page",
+				"usePageVariable": true,
+				"width": null
+			}
+		}
+	]
+}

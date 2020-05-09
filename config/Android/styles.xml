@@ -1,0 +1,9 @@
+<resources>
+    <style name="SFMaterialTextBoxHintAppearance" parent="TextAppearance.Design.Hint" >
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="SFMaterialTextBoxErrorTextAppearance" parent="TextAppearance.Design.Error" >
+        <item name="android:textSize">15dp</item>
+    </style>
+</resources>

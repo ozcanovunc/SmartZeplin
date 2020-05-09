@@ -1,0 +1,42 @@
+{
+	".sf-listViewItem": {
+        "masksToBounds": true,
+		"height": 54,
+		"width": 375,
+		"flexProps": {
+			"alignSelf": "STRETCH",
+			"positionType": "RELATIVE",
+			"alignContent": "STRETCH",
+			"alignItems": "STRETCH"
+		},
+		"&-small": {
+			"width": 100
+		},
+		"&-medium": {
+			"width": 250
+		},
+		"&-large": {
+			"width": 350
+		}
+	},
+	".listViewItem": {
+        "masksToBounds": true,
+		"height": 54,
+		"width": 375,
+		"flexProps": {
+			"alignSelf": "STRETCH",
+			"positionType": "RELATIVE",
+			"alignContent": "STRETCH",
+			"alignItems": "STRETCH"
+		},
+		"&-small": {
+			"width": 100
+		},
+		"&-medium": {
+			"width": 250
+		},
+		"&-large": {
+			"width": 350
+		}
+	}
+}

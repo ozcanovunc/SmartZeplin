@@ -1,0 +1,42 @@
+{
+    ".sf-gifImageView": {
+        "masksToBounds": true,
+		"height": 343,
+		"width": null,
+        "marginTop": 1,
+        "marginBottom": 1,
+		"imageFillType": "STRETCH",
+        "flexProps": {
+            "alignSelf": "AUTO",
+            "positionType": "RELATIVE"
+        },
+        "&-small": {
+            "width": 100
+        },
+        "&-medium": {
+            "width": 250
+        },
+        "&-large": {
+            "width": 350
+        }
+    },
+    ".gifImageView": {
+        "masksToBounds": true,
+		"height": 343,
+		"width": null,
+		"imageFillType": "STRETCH",
+        "flexProps": {
+            "alignSelf": "AUTO",
+            "positionType": "RELATIVE"
+        },
+        "&-small": {
+            "width": 100
+        },
+        "&-medium": {
+            "width": 250
+        },
+        "&-large": {
+            "width": 350
+        }
+    }
+}

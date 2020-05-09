@@ -1,0 +1,86 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .sf-listViewItem-simple",
+			"hiddenComponent": false,
+			"id": "1841-ff9a-b968-028d",
+			"initialized": true,
+			"props": {
+				"children": [
+					"24ca-f21f-dfb6-5dc9",
+					"8474-887d-3102-405e",
+					"bd8f-5e00-4110-7fd7"
+				],
+				"name": "simple_listviewitem",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"flexProps": {},
+				"left": 0,
+				"top": 361.9047619047619
+			}
+		},
+		{
+			"className": ".sf-label .sf-listViewItem-simple-title",
+			"id": "24ca-f21f-dfb6-5dc9",
+			"props": {
+				"autoHeight": 51.086956521739125,
+				"autoWidth": 134.91847826086956,
+				"children": [],
+				"name": "lblTitle",
+				"parent": "1841-ff9a-b968-028d",
+				"text": "ListView Cell Title"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 51.086956521739125,
+				"autoWidth": 134.91847826086956,
+				"marginLeft": 16,
+				"text": "ListView Cell Title"
+			}
+		},
+		{
+			"className": ".sf-label .sf-listViewItem-simple-chevron",
+			"id": "8474-887d-3102-405e",
+			"props": {
+				"autoHeight": 51.086956521739125,
+				"autoWidth": 10.478940217391305,
+				"children": [],
+				"name": "lblChevron",
+				"parent": "1841-ff9a-b968-028d",
+				"text": ""
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 51.086956521739125,
+				"autoWidth": 10.478940217391305,
+				"marginRight": 16,
+				"text": ""
+			}
+		},
+		{
+			"className": ".sf-flexLayout .sf-listViewItem-simple-line",
+			"id": "bd8f-5e00-4110-7fd7",
+			"props": {
+				"children": [],
+				"name": "flLine",
+				"parent": "1841-ff9a-b968-028d"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		}
+	]
+}

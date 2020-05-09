@@ -1,0 +1,8 @@
+{
+	".pageTitleLayout": {
+		"&_logo": {
+			"tintColor": "#FFFFFF",
+			"height": 25
+		}
+	}
+}

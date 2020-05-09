@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": false,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "noEmit": false,
+        "target": "ES5",
+        "outDir": "./dist",
+        "moduleResolution": "Node",
+        "module": "CommonJS",
+        "resolveJsonModule": true,
+        "isolatedModules": false,
+        "typeRoots": [
+            "./scripts/node_modules/sf-core/device/system"
+        ],
+        "baseUrl": "scripts",
+        "rootDir": "scripts",
+        "lib": [
+            "ES2015",
+            "ES2017"
+        ]
+    },
+    "files": [
+        "./typings.d.ts",
+        "./scripts/node_modules/sf-core/index.d.ts",
+        "./scripts/node_modules/sf-core/.types/typings.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "./dist",
+        "**/node_modules/*"
+    ],
+    "include": [
+        "./scripts",
+        "./scripts/**/*.json"
+    ]
+}

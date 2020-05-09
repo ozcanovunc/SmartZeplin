@@ -1,0 +1,76 @@
+{
+	".sf-shimmerFlexLayout": {
+        "masksToBounds": true,
+		"height": 343,
+		"width": null,
+        "marginTop": 1,
+        "marginBottom": 1,
+		"flexProps": {
+			"alignSelf": "AUTO",
+			"positionType": "RELATIVE"
+		},
+		"layout": {
+			"flexProps": {
+				"alignContent": "STRETCH",
+				"alignItems": "STRETCH",
+				"flexDirection": "COLUMN"
+			}
+		},
+		"ios": {
+			"animationAlpha": 0.5,
+			"beginFadeDuration": 100,
+			"endFadeDuration": 300,
+			"speed": 230
+
+		},
+		"android": {
+			"highlightAlpha": 0.5,
+			"highlightLength": 1
+		},
+		"&-small": {
+			"width": 100
+		},
+		"&-medium": {
+			"width": 250
+		},
+		"&-large": {
+			"width": 350
+		}
+	},
+	".shimmerFlexLayout": {
+        "masksToBounds": true,
+		"height": 343,
+		"width": null,
+		"flexProps": {
+			"alignSelf": "AUTO",
+			"positionType": "RELATIVE"
+		},
+		"layout": {
+			"flexProps": {
+				"alignContent": "STRETCH",
+				"alignItems": "STRETCH",
+				"flexDirection": "COLUMN"
+			}
+		},
+		"ios": {
+			"animationAlpha": 0.5,
+			"beginFadeDuration": 100,
+			"endFadeDuration": 300,
+			"speed": 230
+
+		},
+		"android": {
+			"highlightAlpha": 0.5,
+			"highlightLength": 1
+		},
+		"&-small": {
+			"width": 100
+		},
+		"&-medium": {
+			"width": 250
+		},
+		"&-large": {
+			"width": 350
+		}
+	}
+}

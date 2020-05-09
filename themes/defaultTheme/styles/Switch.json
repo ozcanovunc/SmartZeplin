@@ -1,0 +1,50 @@
+{
+    ".sf-switch": {
+        "masksToBounds": true,
+        "width": 60,
+        "android": {
+            "toggleOffColor": "#EEEEEE"
+        },
+        "toggleOnColor": "#00a1f1",
+        "flexProps": {
+            "alignSelf": "AUTO",
+            "positionType": "RELATIVE"
+        },
+        "minHeight": 31,
+        "minWidth": 60,
+        "marginTop": 1,
+        "marginBottom": 1,
+        "&-small": {
+            "width": 100
+        },
+        "&-medium": {
+            "width": 250
+        },
+        "&-large": {
+            "width": 350
+        }
+    },
+    ".switch": {
+        "masksToBounds": true,
+        "width": 60,
+        "android": {
+            "toggleOffColor": "#EEEEEE"
+        },
+        "toggleOnColor": "#00a1f1",
+        "flexProps": {
+            "alignSelf": "AUTO",
+            "positionType": "RELATIVE"
+        },
+        "minHeight": 31,
+        "minWidth": 60,
+        "&-small": {
+            "width": 100
+        },
+        "&-medium": {
+            "width": 250
+        },
+        "&-large": {
+            "width": 350
+        }
+    }
+}

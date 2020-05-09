@@ -1,0 +1,16 @@
+{
+    "__applicationAndroidStyle": {
+        "colorPrimary": "#07A8FF",
+        "colorPrimaryDark": "#066ea6",
+        "colorAccent": "#07A8FF",
+        "v21": {
+            "android:navigationBarColor": "#000000",
+            "android:colorEdgeEffect": "#07A8FF"
+        },
+        "v27": {
+            "android:navigationBarColor": "#ffffff",
+            "android:windowTranslucentStatus": true,
+            "android:windowLightNavigationBar": true
+        }
+    }
+}

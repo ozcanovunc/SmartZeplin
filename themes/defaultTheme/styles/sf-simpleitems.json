@@ -1,0 +1,120 @@
+{
+    ".sf": {
+        "masksToBounds": true,
+        "&-gridViewItem": {
+            "&-simple": {
+                "flexProps": {
+                    "justifyContent": "FLEX_START",
+                    "alignItems": "STRETCH"
+                },
+                "height": 227,
+                "width": 165,
+                "&-preview": {
+                    "height": 165,
+					"flexProps": {
+						"alignSelf": "CENTER"
+					},
+                    "image": "imageview_preview.png",
+                    "imageFillType": "ASPECTFIT",
+                    "marginBottom": null,
+                    "marginTop": null,
+                    "marginLeft": 15,
+                    "marginRight": 15,
+                    "width": null
+                },
+                "&-title": {
+                    "flexProps": {
+                        "positionType": "RELATIVE",
+                        "alignSelf": "AUTO"
+                    },
+                    "font": {
+                        "size": 15,
+                        "bold": true,
+                        "italic": false,
+                        "family": "SFProText",
+                        "style": "Semibold"
+                    },
+                    "height": 20,
+                    "marginBottom": null,
+                    "marginTop": 13,
+                    "textAlignment": "MIDCENTER",
+                    "textColor": "rgba( 0, 0, 0, 1 )"
+                },
+                "&-subtitle": {
+                    "flexProps": {
+                        "positionType": "RELATIVE",
+                        "alignSelf": "AUTO"
+                    },
+                    "font": {
+                        "size": 13,
+                        "bold": false,
+                        "italic": false,
+                        "family": "SFProText",
+                        "style": "Regular"
+                    },
+                    "height": 18,
+                    "marginBottom": 12,
+                    "marginTop": null,
+                    "textAlignment": "MIDCENTER",
+                    "textColor": "rgba( 0, 0, 0, 1 )"
+                }
+            }
+        },
+        "&-listViewItem": {
+            "&-simple": {
+                "flexProps": {
+                    "flexDirection": "ROW",
+                    "alignItems": "CENTER"
+                },
+                "&-title": {
+                    "flexProps": {
+                        "flexGrow": 3,
+                        "alignSelf": "AUTO"
+                    },
+                    "font": {
+                        "size": 16,
+                        "bold": false,
+                        "italic": false,
+                        "family": "SFProText",
+                        "style": "Regular"
+                    },
+                    "marginBottom": null,
+                    "marginLeft": 16,
+                    "marginTop": null,
+                    "textColor": "rgba( 0, 0, 0, 1 )",
+                    "width": null
+                },
+                "&-chevron": {
+                    "marginBottom": null,
+                    "marginRight": 16,
+                    "marginTop": null,
+                    "textAlignment": "MIDRIGHT",
+                    "textColor": "rgba( 0, 0, 0, 0.25 )",
+                    "width": null,
+                    "flexProps": {
+                        "flexGrow": 1
+                    },
+                    "font": {
+                        "size": 13,
+                        "bold": false,
+                        "italic": false,
+                        "family": "FontAwesome5FreeSolid",
+                        "style": null
+                    }
+                },
+                "&-line": {
+                    "backgroundColor": "rgba( 210, 210, 210, 1 )",
+                    "bottom": 0,
+                    "flexProps": {
+                        "positionType": "ABSOLUTE"
+                    },
+                    "height": 1,
+                    "left": 16,
+                    "marginBottom": null,
+                    "marginTop": null,
+                    "right": 0
+                }
+            }
+        }
+    }
+}

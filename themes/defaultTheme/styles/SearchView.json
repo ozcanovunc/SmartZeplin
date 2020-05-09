@@ -1,0 +1,85 @@
+{
+    ".sf-searchView": {
+        "masksToBounds": true,
+        "touchEnabled": true,
+        "width": null,
+        "height": 70,
+        "textColor": "#000000",
+        "borderWidth": 0,
+        "backgroundColor": "rgb(246,246,246)",
+        "textFieldBackgroundColor": "rgba(142,142,147,0.12)",
+        "cursorColor": "rgba(66,107,242,1)",
+        "hintColor": "rgb(142,142,147)",
+        "textAlignment": "MIDLEFT",
+        "marginTop": 1,
+        "marginBottom": 1,
+        "font": {
+            "size": 17,
+            "bold": true,
+            "italic": false,
+            "family": "SFProText",
+            "style": "Regular"
+        },
+        "flexProps": {
+            "alignSelf": "AUTO",
+            "positionType": "RELATIVE"
+        },
+        "input": {
+            "height": 28
+        },
+        "minHeight": 30,
+        "&-small": {
+            "width": 100
+        },
+        "&-medium": {
+            "width": 250
+        },
+        "&-large": {
+            "width": 350
+        }
+    },
+    ".searchView": {
+        "masksToBounds": true,
+        "touchEnabled": true,
+        "width": null,
+        "height": 70,
+        "textColor": "#000000",
+        "textFieldBackgroundColor": "rgba(142,142,147,0.12)",
+        "cursorColor": "rgba(66,107,242,1)",
+        "hintColor": "rgb(142,142,147)",
+        "textAlignment": "MIDLEFT",
+        "font": {
+            "size": 17,
+            "bold": true,
+            "italic": false,
+            "family": "SFProText",
+            "style": "Regular"
+        },
+        "flexProps": {
+            "alignSelf": "AUTO",
+            "positionType": "RELATIVE"
+        },
+        "input": {
+            "height": 28
+        },
+        "minHeight": 30,
+        "&-small": {
+            "width": 100
+        },
+        "&-medium": {
+            "width": 250
+        },
+        "&-large": {
+            "width": 350
+        }
+    },
+    ".default_searchView": {
+        "masksToBounds": true,
+        "touchEnabled": true,
+        "borderColor": "rgba(0,0,0,1)",
+		"+Device:Device.os === \"Android\"": {
+			"borderWidth": 0
+		},
+        "textAlignment": "MIDLEFT"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    ".sf-slider": {
+        "maxTrackColor": "rgb(183,183,183)",
+        "minTrackColor": "#00a1f1",
+        "value": 60,
+        "maxValue": 100,
+        "minValue": 0,
+        "width": null,
+        "flexProps": {
+            "alignSelf": "AUTO",
+            "positionType": "RELATIVE"
+        },
+        "marginTop": 1,
+        "marginBottom": 1,
+        "height": 40,
+        "&-small": {
+            "width": 100
+        },
+        "&-medium": {
+            "width": 250
+        },
+        "&-large": {
+            "width": 350
+        }
+    },
+    ".slider": {
+        "masksToBounds": true,
+        "maxTrackColor": "rgb(183,183,183)",
+        "minTrackColor": "#00a1f1",
+        "value": 60,
+        "maxValue": 100,
+        "minValue": 0,
+        "width": null,
+        "flexProps": {
+            "alignSelf": "AUTO",
+            "positionType": "RELATIVE"
+        },
+        "height": 40,
+        "&-small": {
+            "width": 100
+        },
+        "&-medium": {
+            "width": 250
+        },
+        "&-large": {
+            "width": 350
+        }
+    }
+}

@@ -1,0 +1,107 @@
+{
+    ".sf-button": {
+        "masksToBounds": true,
+        "width": null,
+        "height": 50,
+        "borderRadius": 8,
+        "textColor": "#FFFFFF",
+        "textAlignment": "MIDCENTER",
+        "backgroundColor": {
+            "normal": "#00a1f1",
+            "pressed": "rgba( 0, 129, 194, 1 )",
+            "disabled": "rgb(210, 210, 210)"
+        },
+        "marginTop": 1,
+        "marginBottom": 1,
+        "font": {
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "family": "SFProText",
+            "style": "Semibold"
+        },
+        "flexProps": {
+            "positionType": "RELATIVE",
+            "alignSelf": "AUTO"
+        },
+        "&-small": {
+            "width": 100
+        },
+        "&-medium": {
+            "width": 250
+        },
+        "&-large": {
+            "width": 350
+        },
+        "&-warning": {
+            "backgroundColor": "#9F6000"
+        },
+        "&-error": {
+            "backgroundColor": "#D8000C"
+        },
+        "&-success": {
+            "backgroundColor": "#4F8A10"
+        },
+        "&-line": {
+            "backgroundColor": "rgba(255,255,255,0)",
+            "borderColor": "#00a1f1",
+            "borderWidth": 1,
+            "textColor": "#00a1f1"
+        }
+    },
+    ".button": {
+        "masksToBounds": true,
+        "width": null,
+        "height": 50,
+        "borderRadius": 8,
+        "textColor": "#FFFFFF",
+        "textAlignment": "MIDCENTER",
+        "backgroundColor": {
+            "normal": "#00a1f1",
+            "pressed": "rgba( 0, 129, 194, 1 )",
+            "disabled": "rgb(210, 210, 210)"
+        },
+        "font": {
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "family": "SFProText",
+            "style": "Semibold"
+        },
+        "flexProps": {
+            "positionType": "RELATIVE",
+            "alignSelf": "AUTO"
+        },
+        "&-small": {
+            "width": 100
+        },
+        "&-medium": {
+            "width": 250
+        },
+        "&-large": {
+            "width": 350
+        },
+        "&-warning": {
+            "backgroundColor": "#9F6000"
+        },
+        "&-error": {
+            "backgroundColor": "#D8000C"
+        },
+        "&-success": {
+            "backgroundColor": "#4F8A10"
+        },
+        "&-line": {
+            "backgroundColor": "rgba(255,255,255,0)",
+            "borderColor": "#00a1f1",
+            "borderWidth": 1,
+            "textColor": "#00a1f1"
+        }
+    },
+    ".default_button": {
+        "borderWidth": 0,
+        "borderColor": "rgba(0,0,0,1)",
+        "touchEnabled": true,
+        "masksToBounds": true,
+        "textAlignment": "MIDCENTER"
+    }
+}

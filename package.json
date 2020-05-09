@@ -1,0 +1,21 @@
+{
+	"name": "empty-ts-workspace",
+	"dependencies": {
+		"@smartface/smartface.ui-editor": "6.15.1"
+	},
+	"marketplace-assets": {},
+	"devDependencies": {
+		"typescript": "^3.7.5",
+		"@smartface/wsbuilder": "^1.0.0",
+		"concurrently": "^5.1.0"
+	},
+	"scripts": {
+		"dev": "tsc -w",
+		"build:tsc": "rm -rf ./dist && tsc",
+		"build:sf": "SMF_CIDE_WS_PATH=$PWD sfBuilder --standalone",
+		"build:transpile": "npm run build:sf && npm run build:tsc",
+		"build": "npm run build:tsc",
+		"watch": "SMF_CIDE_WS_PATH=$PWD concurrently 'sfBuilder'  'tsc -w'"
+	},
+	"version": "1.0.0"
+}

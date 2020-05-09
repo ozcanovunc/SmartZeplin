@@ -1,0 +1,93 @@
+{
+    ".sf-label": {
+        "masksToBounds": true,
+        "height": 50,
+        "width": null,
+        "maxLines": 1,
+        "ellipsizeMode": "END",
+        "textColor": "#00a1f1",
+        "textAlignment": "MIDLEFT",
+        "marginTop": 1,
+        "marginBottom": 1,
+        "font": {
+            "size": 17,
+            "bold": true,
+            "italic": false,
+            "family": "SFProText",
+            "style": "Semibold"
+        },
+        "flexProps": {
+            "alignSelf": "AUTO",
+            "positionType": "RELATIVE"
+        },
+        "&-small": {
+            "width": 100,
+            "height": 46,
+            "font": {
+                "size": 12
+            }
+        },
+        "&-medium": {
+            "width": 190,
+            "height": 70,
+            "font": {
+                "size": 24,
+                "style": "Medium"
+            }
+        },
+        "&-large": {
+            "width": 255,
+            "height": 90,
+            "font": {
+                "size": 32,
+                "style": "Medium"
+            }
+        }
+    },
+    ".label": {
+        "masksToBounds": true,
+        "width": null,
+        "height": 50,
+        "maxLines": 0,
+        "ellipsizeMode": "NONE",
+        "textColor": "#00a1f1",
+        "textAlignment": "MIDLEFT",
+        "font": {
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "family": "SFProText",
+            "style": "Semibold"
+        },
+        "flexProps": {
+            "alignSelf": "AUTO",
+            "positionType": "RELATIVE"
+        },
+        "&-small": {
+            "width": 100,
+            "height": 16,
+            "font": {
+                "size": 12
+            }
+        },
+        "&-medium": {
+            "width": 190,
+            "height": 30,
+            "font": {
+                "size": 24,
+                "style": "Medium"
+            }
+        },
+        "&-large": {
+            "width": 255,
+            "height": 50,
+            "font": {
+                "size": 32,
+                "style": "Medium"
+            }
+        }
+    },
+    ".default_label": {
+        "masksToBounds": true
+    }
+}

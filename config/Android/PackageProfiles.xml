@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<packageProfiles>
+	<profile name="Default">
+		<android armeabi="1" x86="0" arm64-v8a="1">
+			<folder name="android/drawable" />
+			<folder name="android/drawable-mdpi" />
+			<folder name="android/drawable-hdpi" />
+			<folder name="android/drawable-xhdpi" />
+			<folder name="android/drawable-xxhdpi" />
+			<!--  Uncomment this block for adding necessary information to android manifest
+			<compatible-screens>
+				<screen android:screenSize="normal" android:screenDensity="mdpi" />
+			</compatible-screens>
+			<supports-screens 
+				android:smallScreens="false" 
+				android:normalScreens="true"
+				android:largeScreens="false"
+				android:xlargeScreens="false"
+				/>
+			-->
+		</android>
+	</profile>
+</packageProfiles>

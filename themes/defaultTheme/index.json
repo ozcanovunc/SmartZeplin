@@ -1,0 +1,29 @@
+{
+    "Defaults": {
+        "ActivityIndicator": ".sf-activityIndicator",
+        "Button": ".sf-button",
+        "FlexLayout": ".sf-flexLayout",
+        "HeaderBar": ".sf-headerBar",
+        "GifImageView": ".sf-gifImageView",
+        "ImageView": ".sf-imageView",
+        "Label": ".sf-label",
+        "ListView": ".sf-listView",
+        "MapView": ".sf-mapView",
+        "Page": ".sf-page",
+        "SearchView": ".sf-searchView",
+        "Slider": ".sf-slider",
+        "StatusBar": ".sf-statusBar",
+        "Switch": ".sf-switch",
+        "TextBox": ".sf-textBox",
+        "TextArea": ".sf-textArea",
+        "TextView": ".sf-textView",
+        "VideoView": ".sf-videoView",
+        "WebView": ".sf-webView",
+        "ScrollView": ".sf-scrollView",
+        "ShimmerFlexLayout": ".sf-shimmerFlexLayout",
+        "ListViewItem": ".sf-listViewItem",
+        "GridView": ".sf-gridView",
+        "GridViewItem": ".sf-gridViewItem",
+        "View": ".sf-view"
+    }
+}

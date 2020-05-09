@@ -1,0 +1,63 @@
+{
+	".sf-scrollView": {
+        "masksToBounds": true,
+		"height": 343,
+		"width": null,
+		"scrollBarEnabled": true,
+		"align": "VERTICAL",
+		"marginTop": 1,
+		"marginBottom": 1,
+		"flexProps": {
+			"alignSelf": "AUTO",
+			"positionType": "RELATIVE"
+		},
+		"layout": {
+			"flexProps": {
+				"alignContent": "STRETCH",
+				"alignItems": "STRETCH",
+				"flexDirection": "COLUMN"
+			}
+		},
+		"&-small": {
+			"width": 100
+		},
+		"&-medium": {
+			"width": 250
+		},
+		"&-large": {
+			"width": 350
+		}
+	},
+	".scrollView": {
+        "masksToBounds": true,
+		"height": 343,
+		"width": null,
+		"scrollBarEnabled": true,
+		"align": "VERTICAL",
+		"flexProps": {
+			"alignSelf": "AUTO",
+			"positionType": "RELATIVE"
+		},
+		"layout": {
+			"flexProps": {
+				"alignContent": "STRETCH",
+				"alignItems": "STRETCH",
+				"flexDirection": "COLUMN"
+			}
+		},
+		"&-small": {
+			"width": 100
+		},
+		"&-medium": {
+			"width": 250
+		},
+		"&-large": {
+			"width": 350
+		}
+	},
+	".default_scrollView": {
+        "masksToBounds": true,
+		"scrollBarEnabled": true,
+		"align": "VERTICAL"
+	}
+}

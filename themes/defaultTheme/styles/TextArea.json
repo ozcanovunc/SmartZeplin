@@ -1,0 +1,65 @@
+{
+    ".sf-textArea": {
+        "masksToBounds": true,
+        "height": 120,
+        "width": null,
+        "borderColor": "#00a1f1",
+        "borderWidth": 1,
+        "borderRadius": 4,
+        "textColor": "#000000",
+        "textAlignment": "MIDLEFT",
+        "marginTop": 1,
+        "marginBottom": 1,
+        "font": {
+            "size": 16,
+            "bold": false,
+            "italic": false,
+            "family": "SFProText",
+            "style": "Regular"
+        },
+        "flexProps": {
+            "alignSelf": "AUTO",
+            "positionType": "RELATIVE"
+        },
+        "&-small": {
+            "width": 100
+        },
+        "&-medium": {
+            "width": 250
+        },
+        "&-large": {
+            "width": 350
+        }
+    },
+    ".textArea": {
+        "masksToBounds": true,
+        "height": 120,
+        "width": null,
+        "borderColor": "#00a1f1",
+        "textColor": "#000000",
+        "textAlignment": "MIDLEFT",
+        "font": {
+            "size": 16,
+            "bold": false,
+            "italic": false,
+            "family": "SFProText",
+            "style": "Regular"
+        },
+        "flexProps": {
+            "alignSelf": "AUTO",
+            "positionType": "RELATIVE"
+        },
+        "&-small": {
+            "width": 100
+        },
+        "&-medium": {
+            "width": 250
+        },
+        "&-large": {
+            "width": 350
+        }
+    },
+    ".deafult_textArea": {
+        "masksToBounds": true
+    }
+}
