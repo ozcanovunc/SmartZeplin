@@ -45,5 +45,8 @@ SMF.i18n.defineLanguage('en', {
 	"scanFaceIDMessage": "Scan your face",
     "chooseNavigationApp": "Choose Navigation App",
     
-    "login": "Login"
+    "login": "Login",
+    "logout": "Logout",
+    "projects": "Projects",
+    "settings": "Settings"
 });

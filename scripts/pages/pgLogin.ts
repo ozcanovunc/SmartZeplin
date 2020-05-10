@@ -1,9 +1,24 @@
 import PgLoginDesign from 'generated/pages/pgLogin';
-import { getAuthzEndpoint } from "service/login";
+import { getAuthzEndpoint, authWithCode } from "service/login";
 import Application = require("sf-core/application");
 import { showDialog } from "lib/waitDialog";
+import * as config from "config.json";
+import genericErrorHandler from "lib/genericErrorHandler";
+import router from "routes";
 const Animator = require('sf-core/ui/animator');
 const Screen = require('sf-core/device/screen');
+const URI = require('urijs');
+
+Application.onApplicationCallReceived = (e) => {
+    if (e && e.data && e.data.url && e.data.url.startsWith(config.redirectUri)) {
+        let { code } = URI(e.data.url).query(true);
+        let dialog = showDialog();
+        authWithCode(code)
+            .then(() => router.push("/pages/dashboard"))
+            .catch(genericErrorHandler)
+            .finally(() => dialog.hide())
+    }
+};
 
 export default class PgLogin extends PgLoginDesign {
     animateLoginLayout?: Function;
@@ -24,13 +39,6 @@ export default class PgLogin extends PgLoginDesign {
 function onShow(superOnShow: () => void) {
     superOnShow();
     this.animateLoginLayout();
-
-    // let dialog = showDialog();
-    // setTimeout(() => {
-    //     dialog.hide();
-    // }, 5000)
-
-
 }
 
 function onLoad(superOnLoad: () => void) {

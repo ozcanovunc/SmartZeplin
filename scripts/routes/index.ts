@@ -31,4 +31,4 @@ const router = Router.of({
     ]
 });
 
-export = router;
+export default router;
