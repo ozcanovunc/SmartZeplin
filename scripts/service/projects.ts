@@ -15,3 +15,16 @@ export function getProjects() {
             })
         );
 }
+
+export function getProject(projectID: string) {
+    let accessToken = Data.getStringVariable(constants.ACCESS_TOKEN);
+    return tokenChecker()
+        .then(() => sc
+            .request(`/projects/${projectID}/screens?sort=section`, {
+                method: "GET",
+                headers: {
+                    "Authorization": `Bearer ${accessToken}`
+                }
+            })
+        );
+}

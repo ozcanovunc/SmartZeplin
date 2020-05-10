@@ -3,8 +3,8 @@ import showSettingsMenu from "lib/settingsMenu";
 import { getProjects } from "service/projects";
 import { showDialog } from "lib/waitDialog";
 import genericErrorHandler from "lib/genericErrorHandler";
-const HeaderBarItem = require('sf-core/ui/headerbaritem');
-const Image = require('sf-core/ui/image');
+import HeaderBarItem = require('sf-core/ui/headerbaritem');
+import Image = require('sf-core/ui/image');
 
 export default class PgDashboard extends PgDashboardDesign {
     private __data = [];
@@ -58,7 +58,10 @@ function initGridView() {
         item.projectOS = platform;
     };
     this.gvMain.onItemSelected = (item, index) => {
-
+        let { name, id } = this.__data[index];
+        this.router.push("/pages/project", {
+            name, id
+        })
     };
     this.gvMain.layoutManager.onItemLength = (length) => {
         return 150;

@@ -9,6 +9,7 @@
         "jwt-decode": "^2.2.0",
         "sf-core": "^4.2.1",
         "sf-extension-utils": "^11.0.0",
+        "sf-extension-zoomable-imageview": "^1.0.2",
         "source-map": "0.6.1",
         "urijs": "^1.19.2"
     },

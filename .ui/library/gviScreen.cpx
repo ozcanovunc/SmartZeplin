@@ -1,0 +1,58 @@
+{
+	"components": [
+		{
+			"className": ".sf-gridViewItem .gviScreen",
+			"id": "4def-3d52-6ebb-a06e",
+			"initialized": true,
+			"props": {
+				"children": [
+					"a52a-a416-1eb3-8f29"
+				],
+				"name": "gviScreen",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "GridViewItem",
+			"userProps": {
+				"flexProps": {},
+				"left": 64.47368421052632,
+				"top": 347.23135964912285
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .gviScreen-wrapper",
+			"id": "a52a-a416-1eb3-8f29",
+			"props": {
+				"children": [
+					"042f-d297-e72c-7b65"
+				],
+				"name": "flWrapper",
+				"parent": "4def-3d52-6ebb-a06e"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .gviScreen-image .grow-relative",
+			"id": "042f-d297-e72c-7b65",
+			"props": {
+				"children": [],
+				"name": "imgScreen",
+				"parent": "a52a-a416-1eb3-8f29",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}

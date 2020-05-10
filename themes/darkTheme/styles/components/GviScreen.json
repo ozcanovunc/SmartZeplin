@@ -1,0 +1,16 @@
+{
+	".gviScreen": {
+        "backgroundColor": "${black}",
+		"&-wrapper": {
+			"marginBottom": 5,
+			"marginTop": 5,
+			"marginLeft": 5,
+			"marginRight": 5
+		},
+        "&-image": {
+			"width": 0,
+			"height": 0,
+			"imageFillType": "ASPECTFILL"
+		}
+	}
+}

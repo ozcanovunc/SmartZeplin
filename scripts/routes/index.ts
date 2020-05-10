@@ -25,6 +25,14 @@ const router = Router.of({
                 Route.of({
                     path: "/pages/dashboard",
                     build: buildExtender({ getPageClass: () => require("pages/pgDashboard").default, headerBarStyle: { visible: true } })
+                }),
+                Route.of({
+                    path: "/pages/project",
+                    build: buildExtender({ getPageClass: () => require("pages/pgProject").default, headerBarStyle: { visible: true } })
+                }),
+                Route.of({
+                    path: "/pages/screen",
+                    build: buildExtender({ getPageClass: () => require("pages/pgScreen").default, headerBarStyle: { visible: true } })
                 })
             ]
         })

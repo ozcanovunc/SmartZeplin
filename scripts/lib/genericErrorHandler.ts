@@ -1,5 +1,11 @@
 export default function genericErrorHandler(e) {
-    if (!e)
+    if (!e) {
         return;
-    alert(JSON.stringify(e, null, "\t"));
+    }
+    else if (e.body && e.body.message) {
+        alert(e.body.message, global.lang.error);
+    }
+    else {
+        alert(JSON.stringify(e, null, "\t"));
+    }
 }

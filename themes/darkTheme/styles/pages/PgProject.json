@@ -1,8 +1,8 @@
 {
-	"#pgDashboard": {
+	"#pgProject": {
 		"&-grid": {
 			"layoutManager": {
-				"spanCount": 2,
+				"spanCount": 3,
 				"contentInset": {
 					"top": 5,
 					"bottom": 5,

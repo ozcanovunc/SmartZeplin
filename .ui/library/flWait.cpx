@@ -2,6 +2,7 @@
 	"components": [
 		{
 			"className": ".sf-flexLayout .flWait",
+			"hiddenComponent": true,
 			"id": "e700-615c-3baf-cb14",
 			"initialized": true,
 			"props": {
