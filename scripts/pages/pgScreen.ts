@@ -7,6 +7,7 @@ import System = require('sf-core/device/system');
 import HeaderBarItem = require('sf-core/ui/headerbaritem');
 import Image = require('sf-core/ui/image');
 import Share = require('sf-core/share');
+import Color = require('sf-core/ui/color');
 
 export default class PgScreen extends PgScreenDesign {
     private initHeaderBar: Function;
@@ -52,9 +53,11 @@ function initHeaderBar() {
             let { name, url } = this.routeData;
             let text = `${name}\n\n${url}`;
             Share.share({
-                items: [text], page: this
+                items: [text],
+                page: this
             });
-        }
+        },
+        color: Color.WHITE
     });
     this.headerBar.setItems([settings]);
 }
