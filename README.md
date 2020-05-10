@@ -5,7 +5,7 @@
 ## Sample Screens
 
 <div style="display:flex;">
-<img width=250 src="/screenshots/login.PNG">
-<img width=250 src="/screenshots/login.PNG" hspace="30">
-<img width=250 src="/screenshots/login.PNG">
+<img width=250 src="/screenshots/login.gif">
+<img width=250 src="/screenshots/login.gif" hspace="30">
+<img width=250 src="/screenshots/login.gif">
 </div>

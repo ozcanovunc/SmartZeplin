@@ -19,8 +19,8 @@ require("sf-extension-utils");
 const URI = require('urijs');
 const router = require("./routes");
 
-// router.push("/onboarding/login");
-router.push("/pages/dashboard");
+router.push("/onboarding/login");
+//router.push("/pages/dashboard");
 
 Application.onApplicationCallReceived = (e) => {
     if (e && e.data && e.data.url && e.data.url.startsWith(config.redirectUri)) {

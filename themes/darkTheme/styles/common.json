@@ -43,6 +43,12 @@
 		"&-gridView": {
 			"marginBottom": null,
 			"marginTop": null
+		},
+		"&-activityIndicator": {
+			"color": "${orange}",
+			"ios": {
+				"activityIndicatorViewStyle": "NORMAL"
+			}
 		}
 	},
 	".grow": {

@@ -1,8 +1,8 @@
 {
 	"#pgLogin": {
 		"&-bottomLayout": {
-			"height": 300,
-			"bottom": -10,
+			"height": null,
+			"bottom": -20,
 			"borderRadius": 10,
 			"flexProps": {
 				"flexGrow": 1,

@@ -2,6 +2,7 @@
 	"components": [
 		{
 			"className": ".sf-gridViewItem .gviProject",
+			"hiddenComponent": true,
 			"id": "cac3-6b18-2603-b7fe",
 			"initialized": true,
 			"props": {

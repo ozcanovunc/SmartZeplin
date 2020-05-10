@@ -80,10 +80,13 @@
 					"22ab-1db6-ea22-65ea"
 				],
 				"name": "flBottom",
-				"parent": "6a5a-4476-c073-923d"
+				"parent": "6a5a-4476-c073-923d",
+				"usePageVariable": true
 			},
 			"type": "FlexLayout",
-			"userProps": {}
+			"userProps": {
+				"usePageVariable": true
+			}
 		},
 		{
 			"className": ".sf-button.orange",
