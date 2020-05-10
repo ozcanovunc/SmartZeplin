@@ -2,7 +2,7 @@
 	"components": [
 		{
 			"className": ".sf-gridViewItem .gviProject",
-			"hiddenComponent": true,
+			"hiddenComponent": false,
 			"id": "cac3-6b18-2603-b7fe",
 			"initialized": true,
 			"props": {
@@ -25,14 +25,14 @@
 			}
 		},
 		{
-			"className": ".sf-flexLayout .grow-relative .gviProject-wholewrapper",
+			"className": ".sf-flexLayout .grow-relative .gviProject-wrapper",
 			"id": "6368-6f8d-b14f-3b72",
 			"props": {
 				"children": [
-					"887d-5dd4-dd6e-832e",
+					"89ae-c10b-c1de-e480",
 					"266c-91fa-a44e-e943"
 				],
-				"name": "flWholeWrapper",
+				"name": "flWrapper",
 				"parent": "cac3-6b18-2603-b7fe"
 			},
 			"source": {
@@ -42,13 +42,28 @@
 			"userProps": {}
 		},
 		{
-			"className": ".sf-imageView .gviProject-thumbnail",
-			"hiddenComponent": false,
-			"id": "887d-5dd4-dd6e-832e",
+			"className": ".sf-flexLayout .gviProject-imagewrapper",
+			"id": "89ae-c10b-c1de-e480",
+			"props": {
+				"children": [
+					"fd7f-df54-9f44-5bab"
+				],
+				"name": "flImageWrapper",
+				"parent": "6368-6f8d-b14f-3b72"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .gviProject-image",
+			"id": "fd7f-df54-9f44-5bab",
 			"props": {
 				"children": [],
 				"name": "imgThumbnail",
-				"parent": "6368-6f8d-b14f-3b72",
+				"parent": "89ae-c10b-c1de-e480",
 				"usePageVariable": true
 			},
 			"source": {
@@ -60,14 +75,14 @@
 			}
 		},
 		{
-			"className": ".sf-flexLayout .gviProject-wrapper",
+			"className": ".sf-flexLayout .gviProject-textwrapper",
 			"id": "266c-91fa-a44e-e943",
 			"props": {
 				"children": [
 					"3f9c-106d-5d18-8963",
 					"1fc8-630b-e285-bac9"
 				],
-				"name": "flWrapper",
+				"name": "flTextWrapper",
 				"parent": "6368-6f8d-b14f-3b72"
 			},
 			"source": {

@@ -7,10 +7,17 @@ const HeaderBarItem = require('sf-core/ui/headerbaritem');
 const Image = require('sf-core/ui/image');
 
 export default class PgDashboard extends PgDashboardDesign {
+    private __data = [];
+    private initGridView: Function;
+    private refreshGridView: Function;
+    private initHeaderBar: Function;
     constructor() {
         super();
         this.onShow = onShow.bind(this, this.onShow.bind(this));
         this.onLoad = onLoad.bind(this, this.onLoad.bind(this));
+        this.initGridView = initGridView.bind(this);
+        this.refreshGridView = refreshGridView.bind(this);
+        this.initHeaderBar = initHeaderBar.bind(this);
     }
 }
 
@@ -21,18 +28,17 @@ function onShow(superOnShow: () => void) {
 function onLoad(superOnLoad: () => void) {
     superOnLoad();
     this.headerBar.title = global.lang.projects;
-    initGridView.call(this);
-    initHeaderBar.call(this);
+    this.initGridView();
+    this.initHeaderBar();
 
     let dialog = showDialog();
     getProjects()
-        .then((e) => alert(JSON.stringify(e, null, "\t")))
+        .then((e) => {
+            this.__data = e;
+            this.refreshGridView();
+        })
         .catch(genericErrorHandler)
         .finally(() => dialog.hide())
-
-    // TODO
-    this.gvMain.itemCount = 10;
-    this.gvMain.refreshData();
 }
 
 function initHeaderBar() {
@@ -44,15 +50,22 @@ function initHeaderBar() {
 }
 
 function initGridView() {
-    this.gvMain.onItemBind = function (item, index) {
+    this.gvMain.itemCount = 0;
+    this.gvMain.onItemBind = (item, index) => {
+        let { name, thumbnail, platform } = this.__data[index];
+        item.thumbnailUrl = thumbnail;
+        item.projectName = name;
+        item.projectOS = platform;
+    };
+    this.gvMain.onItemSelected = (item, index) => {
 
     };
-
-    this.gvMain.onItemSelected = function (item, index) {
-
-    };
-
-    this.gvMain.layoutManager.onItemLength = function (length) {
+    this.gvMain.layoutManager.onItemLength = (length) => {
         return 150;
     };
+}
+
+function refreshGridView() {
+    this.gvMain.itemCount = this.__data.length;
+    this.gvMain.refreshData();
 }

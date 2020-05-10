@@ -2,7 +2,7 @@
 	".gviProject": {
 		"backgroundColor": "${black}",
 		"flexProps": {},
-		"&-wrapper": {
+		"&-textwrapper": {
 			"paddingLeft": 15,
 			"paddingRight": 15,
 			"flexProps": {
@@ -31,19 +31,24 @@
 				"style": "Semibold"
 			}
 		},
-		"&-thumbnail": {
+		"&-imagewrapper": {
 			"height": null,
 			"flexProps": {
 				"flexGrow": 3
 			}
 		},
-		"&-wholewrapper": {
+		"&-wrapper": {
 			"marginLeft": 5,
 			"marginRight": 5,
 			"backgroundColor": "${lightBlack}",
 			"borderRadius": 10,
 			"marginTop": 5,
 			"marginBottom": 5
+		},
+		"&-image": {
+			"width": 0,
+			"height": 0,
+			"imageFillType": "ASPECTFILL"
 		}
 	}
 }
