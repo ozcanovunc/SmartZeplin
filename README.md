@@ -2,7 +2,7 @@
 
 [![license](https://img.shields.io/github/license/ozcanovunc/SmartZeplin.svg)](https://github.com/ozcanovunc/SmartZeplin/blob/master/LICENSE)
 
-Built with [Smartface](https://smartface.io/) and [Zeplin API](https://docs.zeplin.dev/reference)
+A Zeplin mobile client built with [Smartface](https://smartface.io/) and [Zeplin API](https://docs.zeplin.dev/reference)
 
 ## Sample Screens
 
