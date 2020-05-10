@@ -4,7 +4,7 @@ import * as constants from "constants.json";
 import tokenChecker from "lib/tokenChecker";
 
 export function getProjects() {
-    let accessToken = Data.getStringVariable(constants.REFRESH_TOKEN);
+    let accessToken = Data.getStringVariable(constants.ACCESS_TOKEN);
     return tokenChecker()
         .then(() => sc
             .request(`/projects`, {
