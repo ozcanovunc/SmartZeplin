@@ -10,10 +10,10 @@ const Screen = require('sf-core/device/screen');
 const URI = require('urijs');
 
 Application.onApplicationCallReceived = (e) => {
-    alert(JSON.stringify(e, null, "\t"));
-    return
-    if (e && e.data && e.data.url && e.data.url.startsWith(config.redirectUri)) {
-        let { code } = URI(e.data.url).query(true);
+    //@ts-ignore
+    let url = e.url;
+    if (url && url.startsWith(config.redirectUri)) {
+        let { code } = URI(url).query(true);
         let dialog = showDialog();
         authWithCode(code)
             .then(() => router.push("/pages/dashboard"))
