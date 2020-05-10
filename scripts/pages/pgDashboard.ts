@@ -5,6 +5,7 @@ import { showDialog } from "lib/waitDialog";
 import genericErrorHandler from "lib/genericErrorHandler";
 import HeaderBarItem = require('sf-core/ui/headerbaritem');
 import Image = require('sf-core/ui/image');
+import Color = require('sf-core/ui/color');
 
 export default class PgDashboard extends PgDashboardDesign {
     private __data = [];
@@ -44,7 +45,8 @@ function onLoad(superOnLoad: () => void) {
 function initHeaderBar() {
     let settings = new HeaderBarItem({
         image: Image.createFromFile("images://settings.png"),
-        onPress: () => showSettingsMenu(this)
+        onPress: () => showSettingsMenu(this),
+        color: Color.WHITE
     });
     this.headerBar.setItems([settings]);
 }
