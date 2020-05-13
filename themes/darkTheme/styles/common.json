@@ -60,5 +60,13 @@
 			"width": null,
 			"height": null
 		}
-	}
+	},
+    ".browser": {
+        "&-bar": {
+            "backgroundColor": "${grayDark}"
+        },        
+        "&-item": {
+            "backgroundColor": "${orange}"
+        }
+    }
 }

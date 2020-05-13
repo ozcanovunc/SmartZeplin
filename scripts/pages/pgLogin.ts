@@ -5,6 +5,8 @@ import { showDialog } from "lib/waitDialog";
 import * as config from "config.json";
 import genericErrorHandler from "lib/genericErrorHandler";
 import router from "routes";
+const { getCombinedStyle } = require("sf-extension-utils/lib/getCombinedStyle");
+const WebBrowser = require('sf-core/ui/webbrowser');
 const Animator = require('sf-core/ui/animator');
 const Screen = require('sf-core/device/screen');
 const URI = require('urijs');
@@ -31,9 +33,11 @@ export default class PgLogin extends PgLoginDesign {
         this.animateLoginLayout = animateLoginLayout.bind(this);
         this.btnLogin.text = global.lang.login;
         this.btnLogin.onPress = () => {
-            Application.call({
-                uriScheme: getAuthzEndpoint()
-            });
+            let webOptions = new WebBrowser.Options();
+            webOptions.url = getAuthzEndpoint();
+            webOptions.barColor = getCombinedStyle(".browser-bar").backgroundColor;
+            webOptions.ios.itemColor = getCombinedStyle(".browser-item").backgroundColor;
+            WebBrowser.show(this, webOptions);
         };
     }
 }

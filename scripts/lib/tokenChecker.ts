@@ -8,10 +8,10 @@ import logout from "lib/logout";
 export default function tokenChecker() {
     let accessToken = Data.getStringVariable(constants.ACCESS_TOKEN);
     let refreshToken = Data.getStringVariable(constants.REFRESH_TOKEN);
-    if (isTokenValid(accessToken)) {
+    if (accessToken && isTokenValid(accessToken)) {
         return Promise.resolve();
     }
-    else if (isTokenValid(refreshToken)) {
+    else if (refreshToken && isTokenValid(refreshToken)) {
         return authWithRefreshToken();
     }
     else {
