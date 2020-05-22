@@ -1,0 +1,47 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "2a7f-8c7b-adb6-3cb1",
+			"initialized": true,
+			"props": {
+				"children": [
+					"c24b-c8b0-7cd7-d8ca",
+					"546d-a223-a91c-5be2"
+				],
+				"name": "pgProjectScreen",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "c24b-c8b0-7cd7-d8ca",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "2a7f-8c7b-adb6-3cb1"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "546d-a223-a91c-5be2",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "2a7f-8c7b-adb6-3cb1",
+				"title": ""
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": ""
+			}
+		}
+	]
+}

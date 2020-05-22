@@ -7,13 +7,14 @@ A Zeplin mobile client built with [Smartface](https://smartface.io/) and [Zeplin
 ## Sample Screens
 
 <div style="display:flex;">
-<img width=250 src="/screenshots/login.gif">
-<img width=250 src="/screenshots/menu.PNG" hspace="30">
+<img width=250 src="/screenshots/login.PNG">
+<img width=250 src="/screenshots/projects.PNG" hspace="30">
 <img width=250 src="/screenshots/screens.PNG">
 </div>
 
 ## Login with OAuth 2.0
 
 <div style="display:flex;">
-<img width=250 src="/screenshots/oauth.gif">
+<img width=250 src="/screenshots/login.gif">
+<img width=250 src="/screenshots/oauth.gif" hspace="30">
 </div>

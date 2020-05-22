@@ -39,7 +39,7 @@ const router = Router.of({
                 }),
                 Route.of({
                     path: "/pages/screen",
-                    build: buildExtender({ getPageClass: () => require("pages/pgScreen").default, headerBarStyle: { visible: true } })
+                    build: buildExtender({ getPageClass: () => require("pages/pgProjectScreen").default, headerBarStyle: { visible: true } })
                 })
             ]
         })

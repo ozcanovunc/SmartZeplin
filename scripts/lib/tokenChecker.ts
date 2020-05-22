@@ -21,9 +21,14 @@ export default function tokenChecker() {
 }
 
 function isTokenValid(token: string) {
-    let { exp } = jwtDecode(token);
-    let today = new Date();
-    let tokenDate = new Date(0); // The 0 there is the key, which sets the date to the epoch
-    tokenDate.setUTCSeconds(exp);
-    return tokenDate > today;
+    try {
+        let { exp } = jwtDecode(token);
+        let today = new Date();
+        let tokenDate = new Date(0); // The 0 there is the key, which sets the date to the epoch
+        tokenDate.setUTCSeconds(exp);
+        return tokenDate > today;
+    }
+    catch (ex) {
+        return false;
+    }
 }

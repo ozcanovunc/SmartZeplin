@@ -58,10 +58,9 @@ function initGridView() {
         item.screenUrl = url;
     };
     this.gvMain.onItemSelected = (item, index) => {
-        let { image, name } = this.__data[index];
-        let url = image.original_url;
         this.router.push("/pages/screen", {
-            url, name
+            screens: this.__data,
+            currentIndex: index
         });
     };
     this.gvMain.layoutManager.onItemLength = (length) => {

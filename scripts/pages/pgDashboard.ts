@@ -52,6 +52,7 @@ function initHeaderBar() {
 }
 
 function initGridView() {
+    this.gvMain.refreshEnabled = false; // TODO
     this.gvMain.itemCount = 0;
     this.gvMain.onItemBind = (item, index) => {
         let { name, thumbnail, platform } = this.__data[index];

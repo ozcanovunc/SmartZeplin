@@ -1,5 +1,6 @@
 import GviScreenDesign from 'generated/my-components/GviScreen';
 import Image = require('sf-core/ui/image');
+const PLACEHOLDER = Image.createFromFile("images://placeholder.png");
 
 export default class GviScreen extends GviScreenDesign {
     pageName?: string | undefined;
@@ -12,7 +13,7 @@ export default class GviScreen extends GviScreenDesign {
     set screenUrl(url: string) {
         this.imgScreen.loadFromUrl({
             url: this.__screenUrl = url,
-            placeholder: Image.createFromFile("images://placeholder.png"),
+            placeholder: PLACEHOLDER,
             onSuccess: () => {
                 // @ts-ignore
                 let { width, height } = this.imgScreen.image;
