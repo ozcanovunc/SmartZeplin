@@ -91,12 +91,12 @@
         "output": {
             "ios": {
                 "outputFolder": "output/iOS",
-                "bundleIdentifier": "io.ozcanovunc.smartzeplin",
+                "bundleIdentifier": "io.smartface.smartzeplin",
                 "targetedDeviceFamily": "universal"
             },
             "android": {
                 "outputFolder": "output/Android",
-                "packageName": "io.ozcanovunc.smartzeplin",
+                "packageName": "io.smartface.smartzeplin",
                 "obfuscationEnabled": false
             }
         },
