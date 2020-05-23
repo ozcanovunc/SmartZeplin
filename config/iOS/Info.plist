@@ -20,6 +20,8 @@
 		</dict>
 		<key>UIRequiresFullScreen</key>
 		<true/>
+		<key>NSBluetoothAlwaysUsageDescription</key>
+		<string>Our app does not request this permission or utilize this functionality</string>
 		<key>NSContactsUsageDescription</key>
 		<string>Your NSContactsUsageDescription</string>
 		<key>NSPhotoLibraryUsageDescription</key>
@@ -45,7 +47,7 @@
 		<key>CFBundleIconFiles</key>
 		<array/>
 		<key>CFBundleIdentifier</key>
-		<string>io.Smartface.Smartface-Demo</string>
+		<string>io.smartface.smartzeplin</string>
 		<key>CFBundleInfoDictionaryVersion</key>
 		<string>6.0</string>
 		<key>CFBundleName</key>
@@ -57,7 +59,7 @@
 		<key>CFBundleSignature</key>
 		<string>????</string>
 		<key>CFBundleVersion</key>
-		<string>1.0.1</string>
+		<string>1.0.2</string>
 		<key>LSApplicationCategoryType</key>
 		<string></string>
 		<key>LSRequiresIPhoneOS</key>
