@@ -1,7 +1,7 @@
 {
 	"components": [
 		{
-			"className": ".sf-page",
+			"className": ".sf-page .paddingHorizontal",
 			"id": "3b13-18e3-db18-3753",
 			"initialized": true,
 			"props": {

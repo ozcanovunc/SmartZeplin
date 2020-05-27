@@ -92,7 +92,7 @@
             "ios": {
                 "outputFolder": "output/iOS",
                 "bundleIdentifier": "io.smartface.smartzeplin",
-                "targetedDeviceFamily": "universal"
+                "targetedDeviceFamily": "iphone"
             },
             "android": {
                 "outputFolder": "output/Android",

@@ -1,7 +1,7 @@
 {
 	"components": [
 		{
-			"className": ".sf-page",
+			"className": ".sf-page .paddingHorizontal",
 			"id": "a699-b916-6a9c-ec56",
 			"initialized": true,
 			"props": {
@@ -18,7 +18,7 @@
 			"userProps": {}
 		},
 		{
-			"className": ".sf-statusBar",
+			"className": ".sf-statusBar .paddingHorizontal",
 			"id": "5cc4-a32d-1183-1d68",
 			"props": {
 				"children": [],

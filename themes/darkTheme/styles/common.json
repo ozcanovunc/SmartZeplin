@@ -68,5 +68,9 @@
         "&-item": {
             "backgroundColor": "${orange}"
         }
+    },
+    ".paddingHorizontal": {
+        "paddingRight": 5,
+        "paddingLeft": 5
     }
 }
