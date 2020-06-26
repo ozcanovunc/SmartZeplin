@@ -3,7 +3,7 @@
         "name": "SmartZeplin",
         "company": "Ozcan Ovunc",
         "webSite": "https://ozcanovunc.github.io",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "runtimeVersion": "1100",
         "description": "SmartZeplin is a native iOS/Android app that lets you view Zeplin projects"
     },
