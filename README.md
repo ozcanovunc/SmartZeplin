@@ -4,6 +4,8 @@
 
 A Zeplin mobile client built with [Smartface](https://smartface.io/) and [Zeplin API](https://docs.zeplin.dev/reference)
 
+Available in the [App Store](https://apps.apple.com/tr/app/smartzeplin/id1514944168)
+
 ## Sample Screens
 
 <div style="display:flex;">
